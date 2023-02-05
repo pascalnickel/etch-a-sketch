@@ -25,6 +25,10 @@
   .container {
     padding: 32px 16px;
   }
+
+  .heading {
+    font-size: 48px;
+  }
 }
 
 .grid {
