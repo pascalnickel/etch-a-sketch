@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  padding: 2%;
+  border-radius: 16px;
+  background: linear-gradient(to bottom right, #2d3436, #000000);
+
+  text-align: center;
+  font-family: "Wallpoet", cursive;
+  font-size: 72px;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    padding: 32px 16px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(16, minmax(0, 1fr));
+  grid-template-rows: repeat(16, minmax(0, 1fr));
+  gap: 4px;
+
+  padding: 2%;
+  border-radius: 16px;
+  background: linear-gradient(to bottom right, #2d3436, #000000);
+}
+
+.grid__item {
+  aspect-ratio: 1/1;
+  border-radius: 4px;
+  background-color: #63d471;
+}
